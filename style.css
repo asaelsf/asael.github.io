@@ -1,0 +1,142 @@
+*{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin:0;
+    padding:0;
+    box-sizing: border-box;/*Comportamiento de cajas*/
+}
+
+.principal{
+    background: radial-gradient(white,gray); /*Un degradado*/
+    min-height: 100vh;
+    position: relative; /*para */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /*centrados verticalmente*/
+    align-items: center; /*centrar horizontalmente*/
+    padding: 50px;
+}
+
+
+.principal header .logo{
+max-height: 150px;
+}
+
+.principal header{
+    padding: 60px;
+
+min-width: 100%; /*se puede usar el ancho pero el vertical*/
+position: absolute;
+top:-40px;
+left:0;
+display: flex;
+align-items: center; 
+justify-content: space-between;
+z-index:1000;/*Posicion que tiene el elemento*/
+}
+
+.principal header .list{
+    display:flex;
+}
+
+.principal header .list li{
+    list-style: none;
+    
+    
+}
+
+.principal header .list li a{
+text-decoration: none;
+position: relative;
+margin-left: 50px;
+color: #3c3c3c;
+font-size: 1.5em;
+}
+
+
+.principal .content {
+    display:flex;
+    
+}
+
+.principal .content .versos{
+    margin-left: 15px;
+    width: 100%;
+    max-width: 600px;
+    margin-top: 150px;
+    
+}
+
+.principal .content .versos h2{
+    color:#3c3c3c;
+    font-size: 3em;
+    line-height: 1.1em; /*Es el alto entre lineas*/
+    margin: 20px; /*Margen de mi titulo*/
+}
+
+
+.principal .content .versos h2 span{
+    font-weight: 900;
+    color: black;
+}
+
+.principal .content .versos p{
+    color: #3c3c3c;
+    font-size: 1.1em;
+    margin:20px 0;
+}
+
+.principal .content .btn{
+    color: white;
+    background-color: black;
+    position: relative;
+    text-decoration: none;
+    display:inline-block;
+    border-radius: 10px;
+    padding: 10px 15px;
+    transition: 0.25s; /*solo es el tiempo*/
+}
+
+
+.principal .content .btn:hover{
+    letter-spacing: 2px;
+
+}
+
+
+
+.autos{
+    max-height:240px ;
+}
+
+.im{
+    margin-top: 300px;
+}
+
+
+
+
+.did{
+    display:flex;
+    margin-left:-550px;
+}
+
+footer .icon1 .imss{
+    height: 50px;
+    transition: 0.2s;
+
+}
+
+footer .icon1 .imss:hover{
+    background-color: transparent; /*Para el efecto del bo*/
+    border: 2px solid white;
+    color:black;
+}
+
+
+footer .icon1 {
+    padding: 15px;
+    margin-top: 50px;
+
+
+}
+
